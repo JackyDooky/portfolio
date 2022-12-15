@@ -40,7 +40,13 @@ nav {
 .top p {
     margin-left: 20px;
 }
-.main {
+.options {
+    transition: color 100ms;
+}
+.options:hover {
+    color: #74186b;
+}
+.main1 {
     display: flex;
     flex-direction: column;
     padding-top: 200px;
@@ -52,14 +58,16 @@ nav {
     display: flex;
     margin-left: 330px;
 }
-.title {
+.title1 {
     font-weight: 700;
     margin-bottom: 25px;
+    font-style: italic;
 }
 .welcome {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 25px;
+    width: 470px;
 }
 .info {
     width: 470px;
@@ -70,4 +78,137 @@ nav {
 }
 .me {
     width: 100%;
+}
+.main2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    height: 410px;
+    margin-bottom: 130px;
+}
+.results {
+    display: flex;
+    flex-direction: column;
+    margin-left: 420px;
+}
+.title2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.ghk1 {
+    display: flex;
+}
+.chk1 {
+    display: flex;
+}
+.note1, .note2 {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.note2 {
+    background-color: rgb(146, 228, 255);
+}
+.circles-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 70px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.feelings {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-left: 350px;
+}
+.happy1-container {
+    margin-left: 15px;
+}
+.happy2-container {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 160px;
+}
+.happy2 {
+    width: 100%;
+}
+.main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #d8eacc;
+    padding-top: 70px;
+    height: 570px;
+}
+.title3 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.sub-main {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-left: 435px;
+    margin-bottom: 20px;
+}
+.cambridge, .vietnamese {
+    display: flex;
+    flex-direction: column;
+}
+.goals {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.goals div {
+    font-size: 17px;
+}
+.goals-image {
+    width: 100%;
+}
+.goals-container {
+    width: 15px;
+    margin-right: 5px;
+}
+.star-eyes-container {
+    width: 100px;
+}
+.worried-container {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 77px;
+}
+.star-eyes, .worried {
+    width: 100%;
+}
+.determined {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.fist, .studying {
+    width: 100%;
+}
+.fist-container {
+    width: 110px;
+    margin-right: 200px;
+}
+.studying-container {
+    width: 90px;
 }
