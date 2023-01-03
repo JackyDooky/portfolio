@@ -150,8 +150,8 @@ nav {
     flex-direction: column;
     align-items: left;
     background-color: #d8eacc;
-    padding-top: 70px;
-    height: 570px;
+    padding-top: 60px;
+    height: 535px;
 }
 .title3 {
     font-style: italic;
@@ -165,7 +165,7 @@ nav {
     justify-content: space-between;
     width: 450px;
     margin-left: 435px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .cambridge, .vietnamese {
     display: flex;
