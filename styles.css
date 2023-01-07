@@ -7,9 +7,6 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-    height: 3000px;
-}
 a {
     text-decoration: none;
 }
@@ -17,8 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 400px;
-    position: absolute;
-    left: 450px;
+    margin: 0 auto;
 }
 .top {
     background-color: rgba(0, 0, 0, 0);
@@ -93,7 +89,6 @@ nav {
 }
 .title2 {
     font-style: italic;
-    font-weight: bold;
     font-size: 22px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -151,11 +146,10 @@ nav {
     align-items: left;
     background-color: #d8eacc;
     padding-top: 60px;
-    height: 535px;
+    height: 550px;
 }
 .title3 {
     font-style: italic;
-    font-weight: bold;
     font-size: 25px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -211,4 +205,40 @@ nav {
 }
 .studying-container {
     width: 90px;
+}
+.main4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.title4 {
+    font-style: italic;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.wishes {
+    display: flex;
+    margin: 0 auto;
+}
+.parents {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-right: 55px;
+}
+.parents, .teachers {
+    margin-top: 25px;
+}
+.parents div, .teachers div {
+    width: 200px;
+}
+.help-hw, .happy-teacher {
+    width: 100%;
+}
+.happy-teacher {
+    margin-top: 45px;
+}
+.help-hw {
+    margin-top: 20px;
 }
